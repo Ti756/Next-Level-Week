@@ -1,0 +1,64 @@
+/* BOX MODEL 
+
+Modelo de caixa
+Toda caixa tem
+largura, altura, espaçamentos, preenchimentos
+posicionamento, alinhamentos
+*/
+
+#page-home {
+    height: 120vh;
+    background: url('../assets2/Capturar.PNG') no-repeat;
+    background-position: 45vw bottom;
+}
+
+    #page-home .content {
+    width: 70%;
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+    #page-home header {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page-home main{
+    max-width:560px;
+    
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    #page-home main button{
+
+        width: 27%;
+        max-width: 560px;
+        max-height: 100%;
+        display: flex;
+        margin: 0 auto;
+        height: 567%;
+        display: flex;
+        flex-direction: column;
+    }
+
+#page-home main h1 {
+
+    font-size: 54px;
+}
+
+#page-home main p {
+    font-size: 14px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+}
